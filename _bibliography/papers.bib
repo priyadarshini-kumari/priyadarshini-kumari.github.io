@@ -88,7 +88,24 @@
   author={Priyadarshini, K and Chaudhuri, Subhasis},
   booktitle={2022 IEEE Haptics Symposium (HAPTICS)},
   pages={1--6},
+  abstract={
+  Active metric learning is the problem of incrementally selecting highutility batches of training data (typically, ordered triplets) to annotate, in order
+to progressively improve a learned model of a metric over some input domain as
+rapidly as possible. Standard approaches, which independently assess the informativeness of each triplet in a batch, are susceptible to highly correlated batches
+with many redundant triplets and hence low overall utility. While a recent work [20] proposes batch-decorrelation strategies for metric learning, they rely on
+ad hoc heuristics to estimate the correlation between two triplets at a time. We
+present a novel batch active metric learning method that leverages the Maximum Entropy Principle to learn the least biased estimate of triplet distribution
+for a given set of prior constraints. To avoid redundancy between triplets, our
+method collectively selects batches with maximum joint entropy, which simultaneously captures both informativeness and diversity. We take advantage of the
+submodularity of the joint entropy function to construct a tractable solution using
+an efficient greedy algorithm based on Gram-Schmidt orthogonalization that is
+provably optimal. Our approach is the first batch active metric learning
+method to define a unified score that balances informativeness and diversity for
+an entire batch of triplets. Experiments with several real-world datasets demonstrate that our algorithm is robust, generalizes well to different applications and
+input modalities, and consistently outperforms the state-of-the-art},
   year={2022},
+  pdf={haptics.pdf},
+
   organization={IEEE},
   selected={true},
   preview={wave-mechanics.gif}
