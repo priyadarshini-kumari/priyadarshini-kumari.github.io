@@ -210,5 +210,8 @@
       {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
     </div>
     {%- endif %}
+    {%- if entry.summary %}
+    <p>{{ entry.summary }}</p>
+    {%- endif %}
   </div>
 </div>
