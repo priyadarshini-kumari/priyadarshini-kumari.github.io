@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Research Scientist at [Sony AI](https://ai.sony/). 
 
-My research is motivated by the goal of <i>modeling</i> and <i>synthesizing</i> a multisensory (vision, speech, haptic, olfaction, and taste) perception system using machine learning tools. To achieve data efficiency, I also work on developing <i>active learning</i> algorithms to reduce the annotation load in supervised methods. So far, I've applied my research primarily in computer vision and haptics applications, such as object retrieval, recommendation systems, and haptic texture recognition, but I've also been motivated by other machine senses such as olfaction and taste.
+My research is motivated by the goal of <i>modeling</i> and <i>synthesizing</i> a multisensory (vision, speech, haptic, olfaction, and taste) perception system using machine learning tools. To achieve data efficiency, I also work on developing <i>active learning</i> algorithms to reduce the annotation load in supervised methods. 
 
 Previously, I received my Ph.D. from [IIT Bombay](https://www.iitb.ac.in/), advised by [Prof. Subhasis Chaudhuri](https://www.ee.iitb.ac.in/~sc/main/main.html) and [Prof. Siddhartha Chaudhuri](https://www.cse.iitb.ac.in/~sidch/). My thesis was on <i>Label-Efficient Metric Learning</i>. 
 
