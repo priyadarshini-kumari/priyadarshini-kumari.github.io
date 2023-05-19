@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://ai.sony/'>Sony AI</a> &nbsp; Previously @<a href='https://www.iitb.ac.in/'>IIT Bombay</a>
+subtitle: <a href='https://ai.sony/'>Sony Research</a> &nbsp; Previously @<a href='https://www.iitb.ac.in/'>IIT Bombay</a>
 profile:
   align: right
   image: prof_pic.jpg
@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Research Scientist at [Sony AI](https://ai.sony/). 
+I am a Research Scientist at [Sony Research](https://ai.sony/). 
 
 My research is motivated by the goal of <i>modeling</i> and <i>synthesizing</i> a multisensory (vision, speech, haptic, olfaction, and taste) perception system using machine learning tools. To achieve data efficiency, I also work on developing <i>active learning</i> algorithms to reduce the annotation load in supervised methods. 
 
