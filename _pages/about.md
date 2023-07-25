@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Research Scientist at [Sony Research](https://ai.sony/). 
 
-My research is motivated by the goal of <i>modeling</i> and <i>synthesizing</i>  a multimodal system using ML tools. To achieve data efficiency, I also work on developing <i>active and transfer learning</i> algorithms for data-scarce domains, including biomedical, computer vision, natural language processing, and AI for science applications.
+My research is motivated by the goal of <i>modeling</i> and <i>synthesizing</i>  a multimodal perception system using ML tools. To achieve data efficiency, I also work on developing <i>active and transfer learning</i> algorithms for data-scarce domains, including biomedical, computer vision, natural language processing, and AI for science applications.
 
 <!-- My research is motivated by the goal of <i>modeling</i> and <i>synthesizing</i> a multisensory (vision, speech, haptic, olfaction, and taste) perception system using machine learning tools. To achieve data efficiency, I also work on developing <i>active learning</i> algorithms to reduce the annotation load in supervised methods.  -->
 
