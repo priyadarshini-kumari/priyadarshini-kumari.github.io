@@ -11,10 +11,14 @@
 @inproceedings{priyadarshini2023new2,
   abbr      = {preprint},
   title     = {Perceptual metrics for odorants: learning from non-expert similarity feedback using machine learning},
-  author    = {},
-  booktitle = {},
+  author    = {Priyadarshini Kumari and Tarek Besold and Michael Spranger},
+  booktitle = {PLOS ONE},
+  abstract  = {Defining perceptual similarity metrics for odorant comparisons is crucial to understanding the mechanism of olfactory perception. Current methods in olfaction rely on molecular physicochemical features or discrete verbal descriptors (floral,  burnt, etc.) to approximate perceptual (dis)similarity between odorants. However, structural or verbal descriptors alone are limited in modeling complex nuances of odor perception. While structural features inadequately characterize odor perception, language-based discrete descriptors lack the granularity needed to model a continuous perception space. We introduce data-driven approaches to perceptual metrics learning (PMeL) based on two key insights: a) by combining physicochemical features with the user's perceptual feedback, we can leverage both structural and perceptual attributes of odors to define dissimilarity, and b) instead of discrete labels, user's perceptual feedback can be gathered as relative similarity comparisons, such as ``Does molecule-A smell more like molecule-B, or molecule-C?" These triplet comparisons are easier even for non-experts users and offer a more effective representation of the continuous perception space. Experimental results on several defined tasks show the effectiveness of our approach in evaluating perceptual dissimilarity between odorants. Finally, we investigate how closely our model, trained on non-expert feedback, aligns with the expert's similarity judgments. Our effort aims to reduce reliance on expert annotations.},
   year      = {2023},
-  selected  = {false}
+  selected  = {false},
+  preview   = {plosone2023.png},
+  summary   = {
+               We propose Perceptual Metrics Learning (PMeL) for olfactory perception, which combines physicochemical features with user feedback via triplet comparisons to assess perceptual dissimilarity effectively and reduce reliance, to some extent, on expert annotations.}
 }
 @inproceedings{priyadarshini2023aromasense,
   abbr      = {Multimodal KDD},
@@ -23,10 +27,8 @@
   booktitle = {International Workshop on Multimodal Learning at SIGKDD},
   abstract  = {For humans and other animals, the sense of smell provides crucial information in many situations of everyday life. Still, the study of olfactory perception has received only limited attention outside of the biological sciences. From an AI perspective, the complexity of the interactions between olfactory receptors and volatile molecules and the scarcity of comprehensive olfactory datasets, present unique challenges in this sensory domain. Previous works have explored the relationship between molecular structure and odor descriptors using fully supervised training approaches. However, these methods are data-intensive and poorly generalize due to labeled data scarcity, particularly for rare-class samples. Our study partially tackles the challenges of data scarcity and label skewness through multimodal transfer learning. We investigate the potential of large molecular foundation models trained on extensive unlabeled molecular data to effectively model olfactory perception. Additionally, we explore the integration of different molecular representations, including molecular graphs and text-based SMILES encodings, to achieve data efficiency and generalization of the learned model, particularly on sparsely represented classes. By leveraging complementary representations, we aim to learn robust perceptual features of odorants. However, we observe that traditional methods of combining modalities do not yield substantial gains in high-dimensional skewed label spaces. To address this challenge, we introduce a novel label-balancer technique specifically designed for high-dimensional multi-label and multi-modal training.  The label-balancer technique distributes learning objectives across modalities to optimize collaboratively for distinct subsets of labels. Our results suggest that multi-modal transfer features learned using the label-balancer technique are more effective and robust, surpassing the capabilities of traditional uni- or multi-modal approaches, particularly on rare-class samples.},
   year      = {2023},
-  pdf       = {Multimodal_KDD_2023.pdf},
   selected  = {true},
   preview   = {label_balancer_method.png},
-  slides    = {Aromasense_SIGKDD_2023.pdf},
   code      = {https://github.com/priyadarshini-sony/multimodal-olfaction},
   summary   = {We introduce a novel multilabel and multimodal transfer learning technique for modeling olfactory perception. Our approach aims to tackle the challenges of data scarcity and label skewness in the olfactory domain.}
 }
