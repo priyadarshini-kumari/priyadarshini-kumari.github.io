@@ -10,7 +10,7 @@
   preview   = {ds1.png},
   abstract  = {Over the last few years Literature-based Discovery (LBD) has regained popularity as a means to enhance the scientific research process. The resurgent interest has spurred the development of supervised and semi-supervised machine learning models aimed at making previously implicit connections between scientific concepts/entities explicit based on often extensive repositories of published literature. Understanding the temporally evolving interactions between these entities can provide valuable information for predicting the future development of entity relationships. However, existing methods often underutilize the latent information embedded in the temporal aspects of interaction data. In this context, motivated by applications in the food domain—where we aim to connect nutritional information with health-related benefits—we address the hypothesis-generation problem using a temporal graph-based approach. Given that hypothesis generation involves predicting future (i.e., still to be discovered) entity connections, the ability to capture the dynamic evolution of connections over time is pivotal for a robust model. To address this, we introduce THiGER, a novel batch contrastive temporal node-pair embedding method. THiGER excels in providing a more expressive node-pair encoding by effectively harnessing node-pair relationships. Furthermore, we present THiGER-A, an incremental training approach that incorporates an active curriculum learning strategy to mitigate label bias arising from unobserved connections. By progressively training on increasingly challenging and high-utility samples, our approach significantly enhances the performance of the embedding model. Empirical validation of our proposed method demonstrates its effectiveness on established temporal-graph benchmark datasets, as well as on real-world datasets within the food domain.},
   summary   = {We present THiGER-A, a solution aimed at addressing the hypothesis-generation problem. This method utilizes a temporal graph-based node-pair embedding and incorporates an active-curriculum training approach to precisely capture the dynamic evolution of discoveries over time.},
-  selected  = {true}
+  selected  = {false}
 }
 @inproceedings{priyadarshini2023new1,
   abbr      = {preprint},
@@ -19,6 +19,19 @@
   booktitle = {},
   year      = {2023},
   selected  = {false}
+}
+@inproceedings{priyadarshini2023neurips,
+  abbr      = {NeurIPS2023 Workshop XAIA},
+  title     = {FRUNI and FTREE synthetic knowledge graphs for evaluating explainability},
+  author    = {Pablo Sanchez Martin, Tarek Besold, Priyadarshini Kumari},
+  booktitle = {NeurIPS 2023 Workshop XAIA},
+  abstract  = {Research on knowledge graph completion (KGC)---i.e., link prediction within incomplete KGs---is witnessing significant growth in popularity. Recently, KGC using KG embedding (KGE) models, primarily based on complex architectures (e.g., transformers), have achieved remarkable performance. Still, extracting the \emph{minimal and relevant} information employed by KGE models to make predictions, while constituting a major part of \emph{explaining the predictions}, remains a challenge. While there exists a growing literature on explainers for trained KGE models, systematically exposing and quantifying their failure cases poses even greater challenges. In this work, we introduce two synthetic datasets, FRUNI and FTREE, designed to demonstrate the (in)ability of explainer methods to spot link predictions that rely on indirectly connected links. Notably, we empower practitioners to control various aspects of the datasets, such as noise levels and dataset size, enabling them to assess the performance of explainability methods across diverse scenarios. Through our experiments, we assess the performance of four recent explainers in providing accurate explanations for predictions on the proposed datasets. We believe that these datasets are valuable resources for further validating explainability methods within the knowledge graph community.},
+  year      = {2023},
+  pdf       = {fruni_and_ftree.pdf},
+  selected  = {true},
+  preview   = {fruni_ftree.png},
+  code      = {https://github.com/SonyResearch/synthetic_knowledge_graphs},
+  summary   = {We introduce two synthetic datasets, FRUNI and FTREE, to assess explainer methods' ability to identify predictions relying on indirectly connected links.}
 }
 @inproceedings{priyadarshini2023aromasense,
   abbr      = {Multimodal SIGKDD},
