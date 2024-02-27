@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Research Scientist at [Sony Research](https://ai.sony/). 
 
-My research aims to create scalable, data-efficient ML models that continuously learn, adapt, and ensure interpretability in decision processes. My work has explored the applicability of these models in various domains, including biomedical research for scientific discoveries, the design of recommendation systems, and the development of multimodal perception models encompassing vision, speech, and olfactory inputs.
+My research aims to create scalable, data-efficient ML models that continuously learn, adapt, and ensure interpretability in decision processes. My work has explored the applicability of these models in various domains, including biomedical research for scientific discoveries, the design of recommendation systems, and the development of multimodal perception models encompassing vision, speech, text, and olfactory inputs.
 
 
 <!-- My research is motivated by the goal of <i>modeling</i> and <i>synthesizing</i>  a multimodal perception system using ML tools. To achieve data efficiency, I also work on developing <i>active and transfer learning</i> algorithms for data-scarce domains, including biomedical, computer vision, natural language processing, and AI for science applications. -->
