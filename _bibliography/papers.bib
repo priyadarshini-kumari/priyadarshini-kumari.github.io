@@ -1,15 +1,27 @@
 ---
 ---
-@inproceedings{priyadarshini2023ds1,
-  abbr      = {preprint},
-  title     = {Link Prediction for Hypothesis Generation: An Active Curriculum Learning Infused Temporal Graph-Based Approach},
+@inproceedings{priyadarshini2024ds1,
+  abbr      = {Artificial Intelligence Review 2024},
+  title     = {Link prediction for hypothesis generation: an active curriculum learning infused temporal graph-based approach},
   author    = {Akujuobi*, Uchenna and  Kumari*, Priyadarshini and Choi, Jihun  and Badreddine, Samy and Maruyama, Kana and Palaniappan, Sucheendra K.  and Besold, Tarek R. },
-  booktitle = {},
-  year      = {2023},
+  booktitle = {Artificial Intelligence Review},
+  year      = {2024},
   pdf       = {ds1.pdf},
   preview   = {ds1.png},
   abstract  = {Over the last few years Literature-based Discovery (LBD) has regained popularity as a means to enhance the scientific research process. The resurgent interest has spurred the development of supervised and semi-supervised machine learning models aimed at making previously implicit connections between scientific concepts/entities explicit based on often extensive repositories of published literature. Understanding the temporally evolving interactions between these entities can provide valuable information for predicting the future development of entity relationships. However, existing methods often underutilize the latent information embedded in the temporal aspects of interaction data. In this context, motivated by applications in the food domain—where we aim to connect nutritional information with health-related benefits—we address the hypothesis-generation problem using a temporal graph-based approach. Given that hypothesis generation involves predicting future (i.e., still to be discovered) entity connections, the ability to capture the dynamic evolution of connections over time is pivotal for a robust model. To address this, we introduce THiGER, a novel batch contrastive temporal node-pair embedding method. THiGER excels in providing a more expressive node-pair encoding by effectively harnessing node-pair relationships. Furthermore, we present THiGER-A, an incremental training approach that incorporates an active curriculum learning strategy to mitigate label bias arising from unobserved connections. By progressively training on increasingly challenging and high-utility samples, our approach significantly enhances the performance of the embedding model. Empirical validation of our proposed method demonstrates its effectiveness on established temporal-graph benchmark datasets, as well as on real-world datasets within the food domain.},
   summary   = {We present THiGER-A, a solution aimed at addressing the hypothesis-generation problem. This method utilizes a temporal graph-based node-pair embedding and incorporates an active-curriculum training approach to precisely capture the dynamic evolution of discoveries over time.},
+  selected  = {true}
+}
+@inproceedings{priyadarshini2024bmvc,
+  abbr      = {BMVC 2024},
+  title     = {CosFairNet:A Parameter-Space based Approach for Bias Free Learning},
+  author    = {Dwivedi, Rajeev Ranjan and Kumari, Priyadarshini and Kurmi, Vinod Kumar},
+  booktitle = {BMVC},
+  year      = {2024},
+  pdf       = {Fairnesss_BMVC_2024.pdf},
+  preview   = {bmvc.png},
+  abstract  = {Deep neural networks trained on biased data often inadvertently learn unintended inference rules, particularly when labels are strongly correlated with biased features. Existing bias mitigation methods typically involve either a) predefining bias types and enforcing them as prior knowledge or b) reweighting training samples to emphasize bias-conflicting samples over bias-aligned samples. However, both strategies address bias indirectly in the feature or sample space, with no control over learned weights, making it difficult to control the bias propagation across different layers. Based on this observation, we introduce a novel approach to address bias directly in the model's parameter space, preventing its propagation across layers. Our method involves training two models: a bias model for biased features and a debias model for unbiased details, guided by the bias model. We enforce dissimilarity in the debias model's later layers and similarity in its initial layers with the bias model, ensuring it learns unbiased low-level features without adopting biased high-level abstractions. By incorporating this explicit constraint during training, our approach shows enhanced classification accuracy and debiasing effectiveness across various synthetic and real-world datasets of different sizes. Moreover, the proposed method demonstrates robustness across different bias types and percentages of biased samples in the training data.},
+  summary   = {},
   selected  = {false}
 }
 @inproceedings{priyadarshini2023neurips,
