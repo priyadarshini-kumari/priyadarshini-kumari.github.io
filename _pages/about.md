@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I work at Apple, focusing on the intersection of machine learning and health.
+I am a senior ML scientist at Apple.
 
 Previously at [Sony AI](https://ai.sony/), I contributed to a range of projects, from developing data-efficient machine learning techniques for graph neural networks to creating multimodal perception models integrating text, and olfactory inputs. My work spanned applications in biomedical research, olfaction, and gastronomy. 
 
