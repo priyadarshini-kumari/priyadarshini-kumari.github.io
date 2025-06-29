@@ -3,6 +3,7 @@
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
+<<<<<<< HEAD
 <!-- <link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url | bust_file_cache }}"> -->
 <link
   rel="stylesheet"
@@ -14,15 +15,41 @@
 <!-- Bootstrap Table -->
 {% if page.pretty_table %}
   <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@{{ site.bootstrap-table.version }}/dist/bootstrap-table.min.css">
+=======
+<link
+  rel="stylesheet"
+  href="{{ site.third_party_libraries.mdb.url.css }}"
+  integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
+  crossorigin="anonymous"
+>
+
+{% if page.pretty_table %}
+  <!-- Bootstrap Table -->
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.bootstrap-table.url.css }}"
+    integrity="{{ site.third_party_libraries.bootstrap-table.integrity.css }}"
+    crossorigin="anonymous"
+  >
+>>>>>>> main
 {% endif %}
 
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+<<<<<<< HEAD
+=======
+<link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
+>>>>>>> main
 <link
   defer
   rel="stylesheet"
   type="text/css"
+<<<<<<< HEAD
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+=======
+  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
+>>>>>>> main
 >
 
 <!-- Code Syntax Highlighting -->
@@ -40,6 +67,21 @@
 {% endif %}
 
 <!-- Styles -->
+<<<<<<< HEAD
+=======
+
+{% if page.pseudocode %}
+  <!-- pseudocode -->
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.pseudocode.url.css }}"
+    integrity="{{ site.third_party_libraries.pseudocode.integrity.css }}"
+    crossorigin="anonymous"
+  >
+{% endif %}
+
+>>>>>>> main
 {% if site.icon.size <= 4 %}
   <link
     rel="shortcut icon"
@@ -52,6 +94,10 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 <!-- Dark Mode -->
+<<<<<<< HEAD
+=======
+<script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
+>>>>>>> main
 {% if site.enable_darkmode %}
   <link
     defer
@@ -60,6 +106,7 @@
     media="none"
     id="highlight_theme_dark"
   >
+<<<<<<< HEAD
   <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
@@ -81,27 +128,63 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/highlight.js@{{ site.highlightjs.version }}/styles/github.min.css"
     integrity="{{ site.highlightjs.integrity.css.light }}"
+=======
+  <script>
+    initTheme();
+  </script>
+{% endif %}
+
+{% if page.map %}
+  <!-- GeoJSON support via Leaflet -->
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.leaflet.url.css }}"
+    integrity="{{ site.third_party_libraries.leaflet.integrity.css }}"
+    crossorigin="anonymous"
+  >
+{% endif %}
+
+{% if page.code_diff %}
+  <!-- diff2html -->
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.highlightjs.url.css.light }}"
+    integrity="{{ site.third_party_libraries.highlightjs.integrity.css.light }}"
+>>>>>>> main
     crossorigin="anonymous"
     media="screen and (prefers-color-scheme: light)"
   >
   <link
     defer
     rel="stylesheet"
+<<<<<<< HEAD
     href="https://cdn.jsdelivr.net/npm/highlight.js@{{ site.highlightjs.version }}/styles/github-dark.min.css"
     integrity="{{ site.highlightjs.integrity.css.dark }}"
+=======
+    href="{{ site.third_party_libraries.highlightjs.url.css.dark }}"
+    integrity="{{ site.third_party_libraries.highlightjs.integrity.css.dark }}"
+>>>>>>> main
     crossorigin="anonymous"
     media="screen and (prefers-color-scheme: dark)"
   >
   <link
     defer
     rel="stylesheet"
+<<<<<<< HEAD
     href="https://cdn.jsdelivr.net/npm/diff2html@{{ site.diff2html.version }}/bundles/css/diff2html.min.css"
     integrity="{{ site.diff2html.integrity.css }}"
+=======
+    href="{{ site.third_party_libraries.diff2html.url.css }}"
+    integrity="{{ site.third_party_libraries.diff2html.integrity.css }}"
+>>>>>>> main
     crossorigin="anonymous"
   >
 {% endif %}
 
 {% if page.images %}
+<<<<<<< HEAD
   <!-- Image comparison slider -->
   {% if page.images.compare %}
     <link
@@ -117,6 +200,64 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@{{ site.swiper.version }}/swiper-bundle.min.css"
       integrity="{{ site.swiper.integrity.css }}"
+=======
+  {% if page.images.compare %}
+    <!-- Image comparison slider -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.img-comparison-slider.url.css }}"
+      integrity="{{ site.third_party_libraries.img-comparison-slider.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
+  {% if page.images.lightbox2 %}
+    <!-- Lightbox2 -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.lightbox2.url.css }}"
+      integrity="{{ site.third_party_libraries.lightbox2.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
+  {% if page.images.photoswipe %}
+    <!-- Photoswipe -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.photoswipe.url.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
+  {% if page.images.slider %}
+    <!-- Image slider -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.swiper.url.css }}"
+      integrity="{{ site.third_party_libraries.swiper.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
+  {% if page.images.spotlight %}
+    <!-- Spotlight -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.spotlight.url.css }}"
+      integrity="{{ site.third_party_libraries.spotlight.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
+  {% if page.images.venobox %}
+    <!-- Venobox -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.venobox.url.css }}"
+      integrity="{{ site.third_party_libraries.venobox.integrity.css }}"
+>>>>>>> main
       crossorigin="anonymous"
     >
   {% endif %}

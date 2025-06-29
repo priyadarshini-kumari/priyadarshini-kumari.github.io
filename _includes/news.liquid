@@ -3,14 +3,24 @@
     {% assign news_size = site.news | size %}
     <div
       class="table-responsive"
+<<<<<<< HEAD
       {% if include.limit and site.announcements.scrollable and news_size > 3 %}
         style="max-height: 60vw"
+=======
+      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
+        style="max-height: 15vw"
+>>>>>>> main
       {% endif %}
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
+<<<<<<< HEAD
         {% if include.limit and site.announcements.limit %}
           {% assign news_limit = site.announcements.limit %}
+=======
+        {% if include.limit and page.announcements.limit %}
+          {% assign news_limit = page.announcements.limit %}
+>>>>>>> main
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
@@ -31,4 +41,8 @@
   {% else %}
     <p>No news so far...</p>
   {% endif %}
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> main

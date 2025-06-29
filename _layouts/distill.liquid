@@ -2,6 +2,7 @@
 <html>
   <head>
     {% include head.liquid %}
+<<<<<<< HEAD
     {% if site.enable_medium_zoom %}
       <!-- Medium Zoom JS -->
       <script
@@ -18,6 +19,12 @@
     <script src="{{ '/assets/js/distillpub/template.v2.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/distillpub/transforms.v2.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/distillpub/overrides.js' | relative_url }}"></script>
+=======
+
+    <!-- Distill js -->
+    <script src="{{ '/assets/js/distillpub/template.v2.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/distillpub/transforms.v2.js' | relative_url }}"></script>
+>>>>>>> main
     {% if page._styles %}
       <!-- Page/Post style -->
       <style type="text/css">
@@ -118,8 +125,14 @@
 
     <!-- Footer -->
     {% include footer.liquid %}
+<<<<<<< HEAD
     {% include scripts/bootstrap.liquid %}
     {% include scripts/analytics.liquid %}
     {% include scripts/progressBar.liquid %}
+=======
+
+    <!-- JavaScripts -->
+    {% include distill_scripts.liquid %}
+>>>>>>> main
   </body>
 </html>

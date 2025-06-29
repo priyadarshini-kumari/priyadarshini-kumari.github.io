@@ -9,9 +9,18 @@ profile:
   image_cicular: false # crops the image to make it circular
   address: >
 
-news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  # limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 I work at Apple, focusing on the intersection of machine learning and health.
@@ -24,4 +33,8 @@ Previously at [Sony AI](https://ai.sony/), I contributed to a range of projects,
 
 I received my Ph.D. from [IIT Bombay](https://www.iitb.ac.in/), advised by [Prof. Subhasis Chaudhuri](https://www.ee.iitb.ac.in/~sc/main/main.html) and [Prof. Siddhartha Chaudhuri](https://www.cse.iitb.ac.in/~sidch/). My thesis was on <i>Label-Efficient Distance Metric Learning</i>. Before that, I completed my master's also from IIT Bombay where I developed multimodal rendering techniques that combined haptic, visual, and auditory feedback to make 3D models of heritage sites accessible to the visually impaired.
 
+<<<<<<< HEAD
 Here is my [CV](assets/pdf/priyadarshini_cv.pdf)
+=======
+<!-- Here is my [CV](assets/pdf/priyadarshini_cv.pdf) -->
+>>>>>>> main
