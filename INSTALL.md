@@ -12,41 +12,32 @@
 
 <!--ts-->
 
+- [Table of Contents](#table-of-contents)
 - [Installing and Deploying](#installing-and-deploying)
+- [Installing and Deploying](#installing-and-deploying-1)
+- [After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:](#after-everything-is-set-up-you-can-download-the-repository-to-your-machine-and-start-customizing-it-to-do-so-run-the-following-commands)
   - [Recommended Approach](#recommended-approach)
   - [Local setup on Windows](#local-setup-on-windows)
   - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
     - [Build your own docker image](#build-your-own-docker-image)
+  - [Local Setup (Legacy)](#local-setup-legacy)
     - [Have Bugs on Docker Image?](#have-bugs-on-docker-image)
   - [Local Setup with Development Containers](#local-setup-with-development-containers)
   - [Local Setup (Legacy, no longer supported)](#local-setup-legacy-no-longer-supported)
->>>>>>> main
   - [Deployment](#deployment)
+- [](https://pages.github.com/)
     - [For personal and organization webpages](#for-personal-and-organization-webpages)
     - [For project pages](#for-project-pages)
     - [Enabling automatic deployment](#enabling-automatic-deployment)
     - [Manual deployment to GitHub Pages](#manual-deployment-to-github-pages)
-<<<<<<< HEAD
-=======
+- [&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD](#-head)
     - [Deploy on <a href="https://www.netlify.com/" rel="nofollow">Netlify</a>](https://www.netlify.com/)
->>>>>>> main
     - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
     - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
-  - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+    - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+- [Another option is to manually update your code by following the steps below:](#another-option-is-to-manually-update-your-code-by-following-the-steps-below)
+  - [Upgrading from a previous version](#upgrading-from-a-previous-version-1)
 
-<<<<<<< HEAD
-# Installing and Deploying
-
-The recommended approach for using **al-folio** is to first create your own site using the template with as few changes as possible, and only when it is up and running customize it however you like. This way it is easier to pinpoint what causes a potential issue in case of a bug. The minimum steps required to create your own site are:
-
-1. Create a new repository using this template. For this, click on [Use this template -> Create a new repository](https://github.com/new?template_name=al-folio&template_owner=alshedivat) above the file list. If you plan to upload your site to `<your-github-username>.github.io`, note that the name of your repository MUST BE `<your-github-username>.github.io` or `<your-github-orgname>.github.io`, as stated in the [GitHub pages docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
-2. In this new repository, go to `Settings -> Actions -> General -> Workflow permissions` and give `Read and write permissions` to GitHub Actions.
-3. Open file `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` **empty**.
-4. Finally, in the repository page go to `Settings -> Pages -> Build and deployment`, make sure that `Source` is set to `Deploy from a branch` and set the branch to `gh-pages` (NOT to master).
-5. Wait until the GitHub actions finish, then simply navigate to `https://<your-github-username>.github.io` in your browser. At this point you should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/).
-
-After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
-=======
 <!--te-->
 
 ## Recommended Approach
