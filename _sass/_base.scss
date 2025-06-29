@@ -33,10 +33,6 @@ table {
   th {
     font-weight: bold;
   }
-
-  th {
-    font-weight: bold;
-  }
 }
 
 a,
@@ -58,14 +54,6 @@ table.table a {
   &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
   }
-<<<<<<< HEAD
-}
-
-figure,
-img {
-  max-width: 90vw;
-=======
->>>>>>> main
 }
 
 blockquote {
@@ -84,14 +72,10 @@ blockquote {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
-<<<<<<< HEAD
-    p {
-=======
     em,
     li,
     p,
     strong {
->>>>>>> main
       color: var(--global-tip-block-text);
     }
 
@@ -109,14 +93,10 @@ blockquote {
     border-color: var(--global-warning-block);
     background-color: var(--global-warning-block-bg);
 
-<<<<<<< HEAD
-    p {
-=======
     em,
     li,
     p,
     strong {
->>>>>>> main
       color: var(--global-warning-block-text);
     }
 
@@ -134,14 +114,10 @@ blockquote {
     border-color: var(--global-danger-block);
     background-color: var(--global-danger-block-bg);
 
-<<<<<<< HEAD
-    p {
-=======
     em,
     li,
     p,
     strong {
->>>>>>> main
       color: var(--global-danger-block-text);
     }
 
@@ -555,14 +531,11 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 
-<<<<<<< HEAD
-=======
 .date-column {
   width: 75px;
   transform: translateX(-15px) translateY(-5px);
 }
 
->>>>>>> main
 // Repositories
 
 @media (min-width: 768px) {
@@ -653,10 +626,7 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
-<<<<<<< HEAD
-=======
       padding: 0.75rem 1.15rem;
->>>>>>> main
 
       &:hover {
         color: $black-color;
@@ -768,13 +738,8 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-<<<<<<< HEAD
-          padding-left: 1rem;
-          padding-right: 1rem;
-=======
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
->>>>>>> main
 
           a {
             color: white;
@@ -1155,13 +1120,6 @@ nav[data-toggle="toc"] {
     }
   }
 
-<<<<<<< HEAD
-  .card-item {
-    margin-bottom: 10px;
-  }
-
-=======
->>>>>>> main
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
@@ -1198,8 +1156,6 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
-<<<<<<< HEAD
-=======
 
 .ps-root {
   .ps-algorithm {
@@ -1461,4 +1417,3 @@ figure.cover {
     color: #23212d !important;
   }
 }
->>>>>>> main

@@ -1,23 +1,12 @@
-<<<<<<< HEAD
-version: "3"
-=======
->>>>>>> main
 # this file uses prebuilt image in dockerhub
 services:
   jekyll:
     image: amirpourmand/al-folio:slim
-<<<<<<< HEAD
-    build: .
-=======
     #build: .
->>>>>>> main
     ports:
       - 8080:8080
       - 35729:35729
     volumes:
       - .:/srv/jekyll
-<<<<<<< HEAD
-=======
     environment:
       - JEKYLL_ENV=development
->>>>>>> main

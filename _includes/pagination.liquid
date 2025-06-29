@@ -1,36 +1,20 @@
 {% if paginator.total_pages > 1 %}
-<<<<<<< HEAD
-  <nav aria-label="Blog page naviation">
-    <ul class="pagination pagination-lg justify-content-center">
-      <li class="page-item {% unless paginator.previous_page %}disabled{% endunless %}">
-        <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" tabindex="-1" aria-disabled="{{ paginator.previous_page }}"
-          >Newer</a
-=======
   <nav aria-label="Blog page navigation">
     <ul class="pagination pagination-lg justify-content-center">
       <li class="page-item {% unless paginator.previous_page %}disabled{% endunless %}">
         <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" tabindex="-1" aria-disabled="{{ paginator.previous_page }}"
           >&lt;</a
->>>>>>> main
         >
       </li>
       {% if paginator.page_trail %}
         {% for trail in paginator.page_trail %}
           <li class="page-item {% if page.url == trail.path %}active{% endif %}">
-<<<<<<< HEAD
-            <a class="page-link" href="{{ trail.path | relative_url }}" title="{{trail.title}}">{{ trail.num }}</a>
-=======
             <a class="page-link" href="{{ trail.path | relative_url | remove: 'index.html' }}" title="{{ trail.title }}">{{ trail.num }}</a>
->>>>>>> main
           </li>
         {% endfor %}
       {% endif %}
       <li class="page-item {% unless paginator.next_page %}disabled{% endunless %}">
-<<<<<<< HEAD
-        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Older</a>
-=======
         <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">&gt;</a>
->>>>>>> main
       </li>
     </ul>
   </nav>

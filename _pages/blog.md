@@ -4,9 +4,6 @@ permalink: /blog/
 title: blog
 nav: false
 nav_order: 1
-<<<<<<< HEAD
----
-=======
 pagination:
   enabled: true
   collection: posts
@@ -197,4 +194,3 @@ pagination:
 {% endif %}
 
 </div>
->>>>>>> main

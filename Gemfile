@@ -4,13 +4,7 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-<<<<<<< HEAD
-    gem 'classifier-reborn'
-    gem 'jekyll'
-    gem 'jekyll-archives'
-=======
     gem 'jekyll-archives-v2'
->>>>>>> main
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
@@ -22,11 +16,8 @@ group :jekyll_plugins do
     gem 'jekyll-regex-replace'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
-<<<<<<< HEAD
-=======
     gem 'jekyll-tabs'
     gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
->>>>>>> main
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
@@ -36,10 +27,6 @@ end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
-<<<<<<< HEAD
-    gem 'feedjira'
-    gem 'httparty'
-=======
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
@@ -48,5 +35,4 @@ group :other_plugins do
     # gem 'terser'         # used by jekyll-terser
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
->>>>>>> main
 end

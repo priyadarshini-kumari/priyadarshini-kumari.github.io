@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-"Chaudhuri":
-  - firstname: ["Subhasis"]
-    url: https://en.wikipedia.org/wiki/Subhasis_Chaudhuri
-
-  - firstname: ["Siddhartha"]
-    url: https://www.cse.iitb.ac.in/~sidch/
-
-"Borkar":
-  - firstname: ["Vivek"]
-    url: https://scholar.google.com/citations?user=Km1V8WwAAAAJ&hl=en
-=======
 "adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
@@ -44,4 +32,3 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
->>>>>>> main

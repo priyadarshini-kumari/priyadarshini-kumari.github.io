@@ -33,8 +33,4 @@ Previously at [Sony AI](https://ai.sony/), I contributed to a range of projects,
 
 I received my Ph.D. from [IIT Bombay](https://www.iitb.ac.in/), advised by [Prof. Subhasis Chaudhuri](https://www.ee.iitb.ac.in/~sc/main/main.html) and [Prof. Siddhartha Chaudhuri](https://www.cse.iitb.ac.in/~sidch/). My thesis was on <i>Label-Efficient Distance Metric Learning</i>. Before that, I completed my master's also from IIT Bombay where I developed multimodal rendering techniques that combined haptic, visual, and auditory feedback to make 3D models of heritage sites accessible to the visually impaired.
 
-<<<<<<< HEAD
 Here is my [CV](assets/pdf/priyadarshini_cv.pdf)
-=======
-<!-- Here is my [CV](assets/pdf/priyadarshini_cv.pdf) -->
->>>>>>> main

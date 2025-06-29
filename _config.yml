@@ -6,11 +6,7 @@ title: Priyadarshini Kumari # the website title (if blank, full name will be use
 first_name: Priyadarshini
 middle_name: 
 last_name: 
-<<<<<<< HEAD
-email: priyadarshini.kumari@sony.com
-=======
 email: priyadarshini.kri15@gmail.com
->>>>>>> main
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My Webpage 
 
@@ -23,16 +19,10 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://www.priyadarshini-k.com # the base hostname & protocol for your site
-<<<<<<< HEAD
-baseurl: # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-=======
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
->>>>>>> main
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -52,11 +42,6 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-<<<<<<< HEAD
-rss_icon: false
-
-=======
->>>>>>> main
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -69,11 +54,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-<<<<<<< HEAD
-max_width: 1000px
-=======
 max_width: 930px
->>>>>>> main
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -87,69 +68,18 @@ serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
-<<<<<<< HEAD
-# Social integration
-# -----------------------------------------------------------------------------
-
-github_username: # your GitHub user name
-gitlab_username: # your GitLab user name
-x_username: # your X handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: priyadarshini-kumari-501b65162
-telegram_username: # your Telegram user name
-scholar_userid: mD0burkAAAAJ
-semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-osf_id: # your OSF ID
-research_gate_profile: # your profile on ResearchGate
-scopus_id: # your profile on Scopus
-blogger_url: # your blogger URL
-work_url: assets/pdf/priyadarshini_cv.pdf
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url: # your DBLP profile url
-stackoverflow_id: # your stackoverflow id
-kaggle_id: # your kaggle id
-lastfm_id: # your lastfm id
-spotify_id: # your spotify id
-pinterest_id: # your pinterest id
-unsplash_id: # your unsplash id
-instagram_id: # your instagram id
-facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-discord_id: # your discord id (18-digit unique numerical identifier)
-zotero_username: # your zotero username
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-
-contact_note: >
-  Feel free to drop a line via email
-
-# -----------------------------------------------------------------------------
-=======
->>>>>>> main
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics:  G-D0DWPWGDV2 
-<<<<<<< HEAD
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-
-=======
 
  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
->>>>>>> main
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
@@ -223,20 +153,6 @@ collections:
     output: true
   projects:
     output: true
-<<<<<<< HEAD
-    permalink: /projects/:path/
-
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 5 # leave blank to include all the blog posts
-=======
->>>>>>> main
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -256,15 +172,6 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-<<<<<<< HEAD
-include: ["_pages"]
-exclude:
-  - bin
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - docker-compose.yml
-  - Dockerfile
-=======
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
@@ -273,18 +180,11 @@ exclude:
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
->>>>>>> main
   - FAQ.md
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
-<<<<<<< HEAD
-  - package.json
-  - package-lock.json
-  - purgecss.config.js
-  - README.md
-=======
   - lighthouse_results/
   - package.json
   - package-lock.json
@@ -292,7 +192,6 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
->>>>>>> main
   - vendor
 keep_files:
   - CNAME
@@ -300,11 +199,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-<<<<<<< HEAD
-  - jekyll-archives
-=======
   - jekyll-archives-v2
->>>>>>> main
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -316,11 +211,8 @@ plugins:
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
-<<<<<<< HEAD
-=======
   - jekyll-tabs
   - jekyll-terser
->>>>>>> main
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
@@ -340,11 +232,6 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-<<<<<<< HEAD
-  exclude: ["robots.txt"]
-  uglifier_args:
-    harmony: true
-=======
   compress_javascript: false # set to false since we are using terser as the js minifier
   exclude: ["robots.txt", "assets/js/search/*.js"]
 
@@ -355,27 +242,12 @@ jekyll-minifier:
 terser:
   compress:
     drop_console: true
->>>>>>> main
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-<<<<<<< HEAD
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
-
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
-=======
   posts:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
@@ -387,20 +259,14 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
->>>>>>> main
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-<<<<<<< HEAD
-  last_name: [Kumari]
-  first_name: [Priyadarshini]
-=======
   last_name: [Einstein]
   first_name: [Albert, A.]
->>>>>>> main
 
   style: apa
   locale: en
@@ -424,19 +290,6 @@ scholar:
   group_order: descending
 
 # Display different badges withs stats for your publications
-<<<<<<< HEAD
-enable_publication_badges:
-  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-
-# Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords:
-  [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
-
-# Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 5 # leave blank to always show all authors
-=======
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
@@ -473,7 +326,6 @@ filtered_bibtex_keywords:
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3 # leave blank to always show all authors
->>>>>>> main
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
@@ -525,108 +377,28 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-enable_google_analytics: true # enables google analytics
-enable_cronitor_analytics: false # enables cronitor RUM analytics
-=======
 # enable_google_analytics: false # enables google analytics
 enable_google_analytics: true # enables google analytics
 
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
->>>>>>> main
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-<<<<<<< HEAD
-enable_darkmode: false # enables switching between light/dark modes
-=======
 enable_darkmode: true # enables switching between light/dark modes
->>>>>>> main
 enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
-<<<<<<< HEAD
-=======
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
->>>>>>> main
 
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-bootstrap-table:
-  version: "1.22.1"
-chartjs:
-  version: "4.4.1"
-d3:
-  version: "7.8.5"
-  integrity: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
-diff2html:
-  version: "3.4.47"
-  integrity:
-    css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
-    js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
-echarts:
-  version: "5.4.3"
-  integrity:
-    library: "sha256-EVZCmhajjLhgTcxlGMGUBtQiYULZCPjt0uNTFEPFTRk="
-    dark_theme: "sha256-UmFIP/4VvOqBDIl2QWl1HBuAJ1XWs/iFZxT5yJRZOKo="
-highlightjs:
-  version: "11.9.0"
-  integrity:
-    css:
-      light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
-      dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
-imagesloaded:
-  version: "5.0.0"
-  integrity: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
-img-comparison-slider:
-  version: "8.0.6"
-jquery:
-  version: "3.6.0"
-  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-leaflet:
-  version: "1.9.4"
-  integrity:
-    css: "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    js: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-mathjax:
-  version: "3.2.0"
-masonry:
-  version: "4.2.2"
-  integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
-mdb:
-  version: "4.20.0"
-  integrity:
-    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
-    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
-medium_zoom:
-  version: "1.1.0"
-  integrity: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
-mermaid:
-  version: "10.7.0"
-  integrity: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
-swiper:
-  version: "11.0.5"
-  integrity:
-    css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
-    js: "sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E="
-vega:
-  version: "5.27.0"
-  integrity: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
-vega-embed:
-  version: "6.24.0"
-  integrity: "sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU="
-vega-lite:
-  version: "5.16.3"
-  integrity: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
-=======
 # Add the url, version and integrity hash of the libraries you use in your site.
 # The integrity hash is used to ensure that the library is not tampered with.
 # Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
@@ -851,7 +623,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
->>>>>>> main
 
 # -----------------------------------------------------------------------------
 # Get external JSON data
@@ -860,10 +631,7 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
-<<<<<<< HEAD
-=======
 
->>>>>>> main
 jsonresume:
   - basics
   - work

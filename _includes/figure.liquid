@@ -1,9 +1,6 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
-<<<<<<< HEAD
-=======
 {% assign parts = include.path | split: '.' %}
 {% assign ext = parts.last %}
->>>>>>> main
 
 <figure
   {% if include.slot %}
@@ -17,21 +14,6 @@
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     {% if site.imagemagick.enabled %}
-<<<<<<< HEAD
-      <source
-        class="responsive-img-srcset"
-        srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
-        {% if include.sizes %}
-          sizes="{{include.sizes}}"
-        {% else %}
-          sizes="95vw"
-        {% endif %}
-        type="image/webp"
-      >
-    {% endif %}
-    <img
-      src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
-=======
       {% unless include.avoid_scaling %}
         <source
           class="responsive-img-srcset"
@@ -51,7 +33,6 @@
     {% endif %}
     <img
       src="{% if include.url %}{{ include.url }}{% elsif include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
->>>>>>> main
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
