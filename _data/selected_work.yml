@@ -1,0 +1,30 @@
+- area: Learning over evolving graphs
+  title: Link Prediction for Hypothesis Generation
+  venue: Artificial Intelligence Review 2024
+  description: >-
+    Can a model discover hypotheses that haven't been explored yet? This work uses **temporal graphs and link prediction** to identify plausible missing relationships in evolving scientific knowledge graphs, helping surface candidates for further investigation.
+  pdf: /assets/pdf/ds1.pdf
+
+- area: Learning from fewer labels
+  title: Batch Decorrelation for Active Metric Learning
+  venue: IJCAI 2021
+  description: >-
+    How can we learn effectively when labeled data is expensive? This work uses **active learning** to select examples that are both informative and diverse, avoiding redundant batches and making better use of a limited annotation budget.
+  pdf: /assets/pdf/ijcai.pdf
+  code: https://github.com/priyadarshini-kumari/BatchAML_Decorrelation
+
+- area: Learning perceptual representations
+  title: PerceptNet
+  venue: IEEE World Haptics 2019
+  description: >-
+    This work learns a **perceptual distance metric** from human similarity judgments, while accounting for the fact that people can perceive the same pair of stimuli differently.
+  pdf: /assets/pdf/whc2019.pdf
+  code: https://github.com/priyadarshini-kumari/perceptNet
+
+- area: Learning across modalities
+  title: Optimizing Learning Across Multimodal Transfer Features for Modeling Olfactory Perception
+  venue: KDD Workshop 2023
+  description: >-
+    Can knowledge learned from one type of data help us understand another? This work combines **multimodal representations and transfer learning** to model olfactory perception from molecular information, especially when task-specific data is limited.
+  pdf: /assets/pdf/Multimodal_KDD_2023.pdf
+  code: https://github.com/priyadarshini-sony/multimodal-olfaction

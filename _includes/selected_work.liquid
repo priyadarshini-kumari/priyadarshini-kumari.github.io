@@ -1,0 +1,27 @@
+<div class="selected-work">
+  {% assign work_items = site.data.selected_work %}
+  {% if page.selected_work_items %}
+    {% assign work_items = page.selected_work_items %}
+  {% endif %}
+
+  <div class="work-items">
+    {% for item in work_items %}
+      <div class="work-item" style="margin-bottom: 1.75rem;">
+        <h3 class="work-area" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 0.25rem; color: var(--global-text-color);">
+          {{ item.area }}
+        </h3>
+        <div class="work-paper" style="font-size: 1rem; margin-bottom: 0.3rem;">
+          {% if item.pdf %}
+            <a href="{{ item.pdf | relative_url }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600;">{{ item.title }}</a>
+          {% else %}
+            <span style="font-weight: 600;">{{ item.title }}</span>
+          {% endif %}
+          <span class="work-venue" style="color: var(--global-text-color-light);">&nbsp;&mdash;&nbsp;<em>{{ item.venue }}</em></span>
+        </div>
+        <p class="work-desc" style="font-size: 0.95rem; line-height: 1.55; margin-bottom: 0; color: var(--global-text-color);">
+          {{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
