@@ -5,7 +5,7 @@ permalink: /
 # subtitle: Sony Research &nbsp; Previously @<a href='https://www.iitb.ac.in/'>IIT Bombay</a>
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_cicular: false # crops the image to make it circular
   address: >
 
